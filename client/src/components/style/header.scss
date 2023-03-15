@@ -1,0 +1,94 @@
+ .container{
+    display: flex;
+    flex-direction: column;
+
+    .nav{
+      position: fixed;
+      z-index: 10;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 90px;
+      width: 100vw;
+      background-color: rgba(20, 18, 18,1);
+
+         .logo{
+            color:white;
+            cursor: pointer;
+         }
+
+         .menu{
+
+            ul{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               gap: 15px;
+               li{
+                  font-size: 20px;
+                  cursor: pointer;
+
+               }
+               li:hover{
+                  color: azure;
+                  transition: 0.3s ease-in-out;
+               }
+               a{
+                  color:rgb(255, 255, 255);
+                  text-decoration: none;
+                  padding: 0px 8px;
+               }
+               .active{
+                  background-color: rgb(15, 148, 103);
+               }
+            }
+         }
+
+         .search_login{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 35px;
+            
+            .searchBox{
+               margin-top: 15px;
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+                input{
+                  width:200px;
+               }
+               .search-btn{
+                  font-size: 30px;
+                  color: rgb(255, 255, 255);
+                  cursor: pointer;
+
+               }
+                
+               
+            }
+            .login{
+               position: fixed;
+               margin-top: 45px;
+               height: 500px;
+               z-index: 10;
+               h3{
+                  color: azure;
+                  cursor: pointer;
+                  border: 1px solid white;
+                  outline: 1px;
+                  margin-top: 3px;
+                  padding: 2px 8px;
+                  
+               }
+            }
+
+         }
+
+
+    }
+    
+ }

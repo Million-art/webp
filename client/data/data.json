@@ -1,0 +1,10 @@
+{ 
+    "data":[{
+        "fristName":"admin",   
+        "lastName":"123456",
+        "userName":"admin",
+        "email":"a@x.com",
+        "password":"123456",
+        "phoneNumber":"1234567890"
+    }]
+ }

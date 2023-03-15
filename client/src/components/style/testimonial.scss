@@ -1,0 +1,37 @@
+.testimonials-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h1{
+        text-align: center;
+        color:rgb(55, 93, 219);
+    }
+    .testimonial{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        height: 400px;
+         color:red;
+         img{
+            margin-left: 33.33%;
+            width: 30%;
+            height: 80%;
+            justify-content: center;
+            border-radius: 5%;
+
+         }
+         h2{
+            text-align: center;
+
+         }
+         h3{
+            text-align: center;
+         }
+         p{
+            max-width: 95%;
+            text-align: center;
+         }
+    }
+}
